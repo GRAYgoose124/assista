@@ -1,12 +1,11 @@
 {
-  "name": "[internal-mod-name]",
-  "version": "0.0.0",
-  "title": "[MOD DISPLAY NAME]",
-  "author": "[YOUR MODS.FACTORIO.COM USERNAME]",
-  "homepage": "[HOMEPAGE/REPO URL]",
-  "description": "[SHORT DESCRIPTION]",
+  "name": "factorio-assista",
+  "version": "0.1.0",
+  "title": "NPC Assistant Bot",
+  "author": "Grayson Miller",
   "factorio_version": "1.1",
-  "dependencies": [
-    "base"
-  ]
+  "dependencies": ["base >= 1.1"],
+  "description": "Adds an NPC assistant bot to help players.",
+  "data": ["data.lua"],
+  "control": ["control.lua"]
 }
